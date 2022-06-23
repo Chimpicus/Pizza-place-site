@@ -7,3 +7,9 @@
     @apply px-5 mx-10 text-sm;
   }
 }
+
+@layer components {
+  .navLink {
+    @apply hover:text-red-500 hover:border-red-500 hover:shadow-md hover:shadow-slate-500;
+  }
+}

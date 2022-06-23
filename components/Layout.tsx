@@ -9,7 +9,7 @@ interface LayoutProps {
 
 const Layout: React.FunctionComponent<LayoutProps> = ({ children }) => {
   return (
-    <div id="layout">
+    <div id="layout" className="w-full h-full">
       <Header />
       <Navbar />
       <div className="page">{children}</div>
